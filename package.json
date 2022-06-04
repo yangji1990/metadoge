@@ -1,0 +1,29 @@
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Gatsby Site",
+  "author": "Matter Design",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop -p 5000",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "plop": "plop"
+  },
+  "dependencies": {
+    "gatsby": "^4.5.4",
+    "gatsby-plugin-manifest": "^4.14.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.28.1"
+  },
+  "devDependencies": {
+    "plop": "^3.0.5"
+  }
+}
